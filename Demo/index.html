@@ -7,120 +7,120 @@
     <meta name="description" content="This is just to test the demo">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="action.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet/less" type="text/css" href="style.less">
     <title>Demo jQuery</title>
 </head>
 <body>
-    <div class="wrapper">
-        <aside>
-            <ul>
-                <li>.click()</li>
-                <li>.hide()</li>
-                <li>.show()</li>
-                <li>.toggle()</li>
-                <li>.slideDown()</li>
-                <li>.slideUp</li>
-                <li>.slideToggle()</li>
-                <li>.fadeIn()</li>
-                <li>.fadeOut()</li>
-                <li>.addClass()</li>
-                <li>.before</li>
-                <li>.after()</li>
-                <li>.append()</li>
-                <li>.html()</li>
-                <li>.attr()</li>
-                <li>.val()</li>
-                <li>.text()</li>
-            </ul>
-        </aside>
-        <section>
-            <h1></h1>
-            <div>
+    <div id="wrapper">
+        <section><!--  
+            --><a href="#click">.click()</a><!--
+            --><a href="#hide">.hide()</a><!--
+            --><a href="#show">.show()</a><!--
+            --><a href="#toggle">.toggle()</a><!--
+            --><a href="#slide-down">.slideDown()</a><!--
+            --><a href="#slide-up">.slideUp()</a><!--
+            --><a href="#slide-toggle">.slideToggle()</a><!--
+            --><a href="#fade-out">.fadeOut()</a><!--
+            --><a href="#fade-in">.fadeIn()</a><!--
+            --><a href="#add-class">.addClass()</a><!--
+            --><a href="#before">.before</a><!--
+            --><a href="#after">.after()</a><!--
+            --><a href="#append">.append()</a><!--
+            --><a href="#html">.html()</a><!--
+            --><a href="#attr">.attr()</a><!--
+            --><a href="#val">.val()</a><!--
+            --><a href="#text">.text()</a>
+        </section>
+        <section id="infos">
+            <h1>My Mini Documentation</h1>
+            <div id="click">
                 <h2>Click</h2>
                 <button>.click()</button>
                 <p>Bind an event handler to the "click" JavaScript event, or trigger that event on an element.</p>
             </div>
-            <div>
+            <div id="hide">
                 <h2>Hide</h2>
                 <button>.hide()</button>
                 <p>Hide the matched elements.</p>
             </div>
-            <div>
+            <div id="show">
                 <h2>Show</h2>
                 <button>.show()</button>
                 <p>Display the matched elements.</p>
             </div>
-            <div>
+            <div id="toggle">
                 <h2>Toggle</h2>
                 <button>.toggle</button>
                 <p>Display or hide the matched elements.</p>
             </div>
-            <div>
+            <div id="slide-up">
                 <h2>Slide Up</h2>
                 <button>.slideUp()</button>
-                <p>Hide the matched elements with a sliding motion.</p>
+                <p>Hide the matched elements with--> a sliding motion.</p>
             </div>
-            <div>
+            <div id="slide-down">
                 <h2>Slide Down</h2>
                 <button>.slideDown</button>
-                <p>Display the matched elements with a sliding motion.</p>
+                <p>Display the matched elements with--> a sliding motion.</p>
             </div>
-            <div>
+            <div id="slide-toggle">
                 <h2>Slide Toggle</h2>
                 <button>.slideToggle()</button>
-                <p>Display or hide the matched elements with a sliding motion.</p>
+                <p>Display or hide the matched elements with--> a sliding motion.</p>
             </div>
-            <div>
-                <h2>Fade In</h2>
-                <button>.fadeIn</button>
-                <p>Display the matched elements by fading them to opaque.</p>
-            </div>
-            <div>
+            <div id="fade-out">
                 <h2>Fade Out</h2>
                 <button>.fadeOut</button>
                 <p>Hide the matched elements by fading them to transparent.</p>
             </div>
-            <div>
+            <div id="fade-in">
+                <h2>Fade In</h2>
+                <button>.fadeIn</button>
+                <p>Display the matched elements by fading them to opaque.</p>
+            </div>
+            <div id="add-class">
                 <h2>Add Class</h2>
                 <button>.addClass</button>
                 <p>Adds the specified class(es) to each element in the set of matched elements.</p>
             </div>
-            <div>
+            <div id="before">
                 <h2>Before</h2>
                 <button>.before()</button>
                 <p>Insert content, specified by the parameter, before each element in the set of matched elements.</p>
             </div>
-            <div>
+            <div id="after">
                 <h2>After</h2>
                 <button>.after()</button>
                 <p> Insert content, specified by the parameter, after each element in the set of matched elements.</p>
             </div>
-            <div>
+            <div id="append">
                 <h2>Append</h2>
                 <button>.append()</button>
                 <p>Insert every element in the set of matched elements to the end of the target.</p>
             </div>
-            <div>
+            <div id="html">
                 <h2>HTML</h2>
                 <button>.html()</button>
                 <p>Modify and filter HTML strings passed through jQuery manipulation methods.</p>
             </div>
-            <div>
+            <div id="attr">
                 <h2>Attribute</h2>
-                <button>.att()</button>
-                <p>Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</p>
+                <button>.attr()</button>
+                <p name="ted">Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.</p>
             </div>
-            <div>
+            <div id="val">
                 <h2>Value</h2>
                 <button>.val()</button>
                 <p>Get the current value of the first element in the set of matched elements or set the value of every matched element.</p>
+                <input type="text">
             </div>
-            <div>
+            <div id="text">
                 <h2>Text</h2>
                 <button>.text()</button>
                 <p>Selects all input elements of type text.</p>
             </div>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.0.0/less.min.js"></script>
 </body>
 </html>
