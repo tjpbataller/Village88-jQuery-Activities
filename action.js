@@ -1,9 +1,0 @@
-$(document).ready(()=>{
-    $('p').click(()=>{
-        if($('button').hasClass('btn')){
-            $('button').removeClass('btn');
-        }else{
-            $('button').addClass('btn');
-        }
-    });
-});
