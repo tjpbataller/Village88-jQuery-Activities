@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    width: 1000px;
+    margin: 50px auto;
+    font-size: 0;
+}
+    h1{
+        display: inline-block;
+        font-size: 24px;
+        width: calc(100% / 5);
+        text-align: center;
+        margin: 10px 0;
+    }
+    ul {
+        display: inline-block;
+        font-size: 18px;
+        width: calc(100% / 5);
+        vertical-align: top;
+        height: 500px;
+    }
+        ul img{
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            border:solid 2px black;
+            border-radius: 20px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        ul li{
+            text-align: center;
+            text-decoration: none;
+            list-style: none;
+            cursor: pointer;
+            border: solid 2px black;
+            width: 160px;
+            margin-bottom: 5px;
+            padding: 5px 0;
+        }
+        ul li:hover{
+            background-color: yellow;
+        }
